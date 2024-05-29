@@ -42,7 +42,7 @@ const initUnix = (isSecond = true) =>
   parseInt('' + Number(new Date()) / (isSecond ? 1000 : 1));
 
 const allTimeZones = [
-  { name: '[亚洲] 日本/东京 - Asia/Tokyo', value: 'sia/Tokyo' },
+  { name: '[亚洲] 日本/东京 - Asia/Tokyo', value: 'Asia/Tokyo' },
   { name: '[亚洲] 中国/上海 - Asia/Shanghai', value: 'Asia/Shanghai' },
   { name: '[亚洲] 新加坡 - Asia/Singapore', value: 'Asia/Singapore' },
   { name: '[亚洲] 泰国/曼谷 - Asia/Bangkok', value: 'Asia/Bangkok' },
